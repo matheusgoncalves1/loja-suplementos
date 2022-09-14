@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    margin-top: 135px;
+}
+header {
+    top:0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+.cabecalho-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 24px;
+    background: #52B5D5;
+    border: 1px solid #52B5D5;
+}
+
+.cabecalho-principal-imagem {
+    height: 100px;
+}
+
+.cabecalho-principal-pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.cabecalho-principal-pesquisa-caixa{
+    outline: 0;
+    background-color: transparent;
+    border: none;
+    width: 700px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.51);
+}
+
+.cabecalho-principal-pesquisa-imagem {
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.cabecalho-principal-menu{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.cabecalho-principal-menu-texto {
+    display: flex;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    color: #111111;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cabecalho-principal-menu-item {
+    height: 30px;
+    width: 30px;
+}
+
+.cabecalho-segundario-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #6ECEE3;
+    border: 1px solid #6ECEE3;
+    height: 35px;  
+}
+
+.cabecalho-segundario-menu-item {
+    font-family: 'Roboto', sans-serif;
+    color: #111111;
+    font-weight: 400;
+    font-size: 18px;
+}
