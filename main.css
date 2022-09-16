@@ -1,7 +1,8 @@
 .slides {
-    display: flex;
-    width: 100vw;
+     display: none;
+    width: 100%;
     height: 100%;
+    max-width: 1440px;
     max-height: 500px;
 
     object-fit: cover;
